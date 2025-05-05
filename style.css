@@ -1,0 +1,28 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.sainbileg-card {
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 8rem;
+    width: 2rem;
+    justify-items: center;
+    background-image: url(/imgs/space-image-small-magellanic-cloud-smc-galaxy-matthias-hauser.jpg);
+}
+
+.sainbileg-card>h2{
+    position: relative;
+    top: -5rem;
+    padding: 1rem;
+    white-space: nowrap;
+    color: aqua;
+}
+
+.sainbileg-card>p{
+    font-family: cursive;
+    white-space: nowrap;
+    color:yellowgreen ;
+}
